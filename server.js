@@ -13,7 +13,7 @@ connectDB();
 const app = express();
 app.use(express.json());
 app.use(cors({
-  origin: "https://safe-connect-backend.vercel.app",
+  origin: "http://localhost:5173",
   credentials: true
 }));
 
